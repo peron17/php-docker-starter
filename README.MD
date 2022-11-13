@@ -1,3 +1,5 @@
+![Docker Pulls](https://img.shields.io/docker/pulls/tommypria/peron)
+
 # PHP Docker Starter
 
 Use this project to start build an app using PHP & docker.
