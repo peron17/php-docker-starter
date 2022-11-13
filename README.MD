@@ -8,6 +8,10 @@ Use this project to start build an app using PHP & docker.
    ```bash
    docker build -f docker/files/Dockerfile.local . -t peron:php8-fpm
    ```
+   Or, you can just pull the image from docker hub by execute this command
+   ```bash
+   docker pull tommypria/peron:php8-fpm
+   ```
 2. Copy env example files to real env files
    ```bash
    cp -r docker/config/local/compose/.env.example docker/config/local/compose/.env
