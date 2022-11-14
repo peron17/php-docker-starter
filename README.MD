@@ -8,7 +8,7 @@ Use this project to start build an app using PHP & docker.
 
 1. Build image (if needed).
    ```bash
-   docker build -f docker/files/Dockerfile.local . -t peron:php8-fpm
+   docker build -f docker/files/php/8.0/Dockerfile.local . -t peron:php8-fpm
    ```
    Or, you can just pull the image from docker hub by execute this command
    ```bash
