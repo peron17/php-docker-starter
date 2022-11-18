@@ -24,6 +24,8 @@ RUN apk --update add \
     bash \
     shadow
 
+RUN apk add nodejs npm
+
 RUN docker-php-ext-install \
     mysqli \
     xsl \
